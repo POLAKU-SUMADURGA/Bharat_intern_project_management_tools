@@ -1,0 +1,73 @@
+ 
+    /* CSS styling */
+    body {
+      
+      background-image: url(https://static9.depositphotos.com/1625923/1185/i/950/depositphotos_11851859-stock-photo-dandelion-loosing-seeds-in-the.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: 'Times New Roman', Times, serif;
+      background-attachment: fixed;
+    }
+    
+    .container1 {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+    }
+    
+    h1 {
+      text-align: center;
+      color:blue;
+    }
+    
+    .task-input {
+      display: flex;
+      margin-bottom: 10px;
+     
+     
+  
+    }
+    
+    .task-input input[type="text"] {
+      flex: 1;
+      padding: 10px;
+    }
+    
+    .task-input button {
+      padding: 10px;
+      color:	#0000FF;
+      cursor: pointer; 
+border-color:black;
+    }
+    
+    .task-list {
+      list-style-type: none;
+      padding: 0;
+      color: #ccc;
+    }
+    
+    .task-list li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      color: blue;
+    }
+    
+    .task-list li input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    
+    .task-list li button {
+      margin-left: auto;
+      padding: 5px;
+      border: none;
+      background-color:white;
+      border-style: solid;
+      border-color: black;
+      color: blue;
+      cursor: pointer;
+    }
+    .task-list li button:hover{
+      background-color: red;
+      border-color: aqua;
+    }
